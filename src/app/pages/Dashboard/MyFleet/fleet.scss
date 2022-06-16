@@ -1,0 +1,187 @@
+@import '../../../../styles/global-styles.scss';
+
+.fleet-view {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0px 0.781vw;
+  margin-right: 30px;
+  display: flex;
+}
+
+.menu-container {
+  height: max-content;
+  padding: 1px 0px;
+  margin: 0.781vw 0px;
+  cursor: pointer;
+}
+
+.menu-container .menu-bar {
+  background: linear-gradient(0deg, #4285f4, #4285f4);
+  border-radius: 1px;
+  width: 20px;
+  height: 3px;
+  margin-bottom: 4px;
+}
+
+.fleet-view .button-container {
+  width: 24px;
+  height: 19px;
+  margin: 0.65vw 0px;
+  cursor: pointer;
+}
+
+.fleet-view img {
+  width: 24px;
+  height: 19px;
+}
+
+.fleetSection {
+  width: 100%;
+  box-shadow: 0px 4px 20px rgba(179, 179, 179, 0.25);
+  padding: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(179, 179, 179, 0.25);
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+
+.title {
+  height: inherit;
+  padding: 0.781vw 0;
+}
+.title span {
+  font-size: 1.042vw;
+  font-family: GilroyBold;
+  border-radius: 15px;
+  line-height: 0px;
+  color: #333333;
+}
+
+.right-container {
+  display: flex;
+}
+
+.menu-container {
+  height: max-content;
+  padding: 1px 0px;
+  margin: 0.781vw 0px;
+  cursor: pointer;
+}
+
+.menu-container .menu-bar {
+  background: linear-gradient(0deg, #4285f4, #4285f4);
+  border-radius: 1px;
+  width: 20px;
+  height: 3px;
+  margin-bottom: 4px;
+}
+
+/*Card Detail section*/
+.fleet-card {
+  display: flex;
+  margin: 35px 15px !important;
+}
+.fleet-card-img {
+  width: 100%;
+}
+.flex-details {
+  display: flex;
+}
+.fleet-card-details {
+  padding: 0px 30px;
+}
+.fleet-card-details .location-mark img {
+  margin-right: 15px;
+}
+.fleet-card-details .location-mark span {
+  font-size: 1.1rem;
+}
+.fleet-card-title {
+  font-size: 1.4rem;
+  font-family: GilroyBold;
+  padding: 20px 0px;
+}
+.fleet-detail-labels,
+.fleet-detail-value {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgba(179, 179, 179, 0.25);
+  border-bottom-style: dashed;
+}
+.fleet-detail-value {
+  color: black;
+  font-family: GilroyBold;
+}
+button.fleet-card-editBtn {
+  border: 2px solid black;
+  padding: 8px 35px;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  font-family: GilroyBold;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+button.new-listing-btn {
+  padding: 0.781vw 1.354vw;
+  font-size: 0.833vw;
+  font-family: GilroyBold;
+  text-transform: capitalize;
+  background: linear-gradient(0deg, #4285f4, #4285f4);
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+
+.search-bar {
+  padding: 1rem 1.2rem;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2rem;
+  width: 300px;
+  max-height: 65px;
+}
+
+.search-bar img {
+  padding: 4px;
+}
+
+.search-bar input {
+  margin-left: 0.781vw;
+  border: none;
+  width: 80%;
+}
+
+.search-bar input:focus-visible {
+  outline-offset: 0px;
+}
+
+.select-container {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 45px;
+  padding: 0.833vw 1.302vw;
+  float: right;
+  display: flex;
+  margin-left: 30px;
+  width: 170px;
+}
+
+.select-container-right {
+  width: 150px;
+}
+.select-container select {
+  border: none;
+  font-family: GilroyMedium;
+  font-size: 14px;
+  align-items: center;
+  color: #333333;
+  width: 100%;
+}
+
+.select-right {
+  float: right;
+}

@@ -1,0 +1,27 @@
+.completed{
+    text-decoration: line-through
+}
+.button{
+    background: linear-gradient(180deg, #D09E84 0%, #FFE6D9 48.96%, #986A55 100%);
+    color:black;
+    margin-bottom:10em;
+}
+.rank-button-title{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family:'Gilroy-Bold';
+    line-height: 23.44px;
+    letter-spacing: 0.02em;
+}
+
+.headPoint{
+    left:1.5em !important;
+
+}
+
+.headPoint::after{
+    width:2.5em !important;
+    left:2.2em !important;
+
+}

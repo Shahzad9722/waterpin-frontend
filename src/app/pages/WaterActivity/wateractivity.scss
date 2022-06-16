@@ -1,0 +1,279 @@
+.water-activity .wa-sidebar {
+    width: 160px;
+    float: left;
+    background: #f5f5f7;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .water-activity .wae-body {
+    width: 85%;
+    float: left;
+    margin-bottom: 76px;
+    margin-left: 17px;
+  }
+  .water-activity .home-icon {
+    display: block;
+    margin: auto;
+    /* width: 36%; */
+    padding-top: 30px;
+  }
+  .water-activity .hm-home-btn div {
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+  
+    padding-top: 13px;
+    font-family: "GilroyMedium";
+    color: #828282;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .wae-container {
+    width: 96%;
+    margin-top: 17px !important; 
+    margin: auto;
+    display: block;
+    display: flex;
+  }
+  .wae-body {
+    width: 80%;
+    float: left;
+    background-color: white;
+    }
+    .wae-sidebar {
+        width: 20%;
+        float: left;
+        background-color: white;
+        margin-right: 10px;
+    }
+  .top-title {
+    font-family: "GilroyBold";
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #828282;
+    padding: 17px;
+    text-align: center;
+    background-color: #f5f5f7;
+    border-radius: 12px 12px 0px 0px;
+  }
+  .back-icon {
+    margin-right: 19px;
+  }
+  .water-activity .hm-home-btn {
+    width: 140px;
+    height: 160px;
+    margin-left: 10px;
+    margin-top: 8px;
+    top: 292px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgb(179 179 179 / 25%);
+    border-radius: 15px 15px 0px 0px;
+  }
+  .hm-home-btn span {
+    font-family: "GilroyBold";
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    padding-left: 23px;
+    padding-top: 3px;
+  }
+  .search-location {
+    width: 622px;
+    height: auto;
+    border: initial !important;
+    background: #ffffff;
+    border-radius: 25px; 
+    padding: 17px;
+  }
+  .search-location :focus-visible{
+    border: initial ;
+  }
+  .search-Date,
+  .search-price,
+  .search-Guests {
+    background: #ffffff;
+    border: 1px solid #9f9f9f;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 108px;
+    height: 50px;
+    margin-left: 12px;
+    padding: 13px;
+  }
+  .wae-search-filter {
+    background: #f5f5f7;
+    border-radius: 20px;
+    padding: 23px;
+  }
+  .wae-search-filter span {
+    background: linear-gradient(
+      180deg,
+      #00c2cb 0%,
+      rgba(0, 194, 203, 0.76) 51.04%,
+      #00c2cb 100%
+    );
+    padding: 12px;
+    border-radius: 47px;
+    position: relative;
+    left: -51px;
+  }
+  .wae-search-filter3 {
+    background: #f5f5f7;
+    border-radius: 20px;
+    padding: 23px;
+  }
+  
+  .wae-search-filter2 {
+    background: #f5f5f7;
+    border-radius: 20px;
+    /* padding: 23px; */
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .wae-search-filter2 .span {
+    background: linear-gradient(
+      180deg,
+      #00c2cb 0%,
+      rgba(0, 194, 203, 0.76) 51.04%,
+      #00c2cb 100%
+    );
+    padding: 12px;
+    border-radius: 47px;
+    position: relative;
+    left: -47px;
+    height: 40px !important;
+  }
+  /* after add */
+  .WAMuiChipInput-chipContainer-4 {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    cursor: text;
+    display: flex;
+    flex-flow: row wrap;
+    /* min-height: 47px; */
+    margin-bottom: -2px;
+    padding-left: 9px;
+  }
+  .MuiChip-root {
+    margin-block: auto;
+    color: rgba(0, 0, 0, 0.87);
+    border: none;
+    cursor: default;
+    height: 35px;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    font-size: 0.8666rem !important;
+    box-sizing: border-box;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    white-space: nowrap;
+    border-radius: 38px;
+    vertical-align: middle;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #e0e0e0;
+  }
+  .wae-search-filter span {
+    /* background: linear-gradient(
+  180deg, #00C2CB 0%, rgba(0, 194, 203, 0.76) 51.04%, #00C2CB 100%); */
+    /* padding: 8px; */
+    /* border-radius: 66px; */
+    position: relative;
+    /* left: -51px; */
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .WAMuiChipInput-chipContainer-21 {
+    cursor: text;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 40px;
+    margin-bottom: -2px;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .WAMuiChipInput-chip-16 {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    float: left;
+    margin: 0 8px 8px 0;
+  }
+  .WAMuiChipInput-chip-50 {
+    float: left;
+    margin: 0 8px 8px 0;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .WAMuiChipInput-chipContainer-38 {
+    cursor: text;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 40px;
+    margin-bottom: -2px;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  
+  .link-view-all {
+    font-family: "GilroyRegular";
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #828282;
+    margin-top: 14px;
+    margin-left: auto;
+  }
+  .activity-ex-sec-body {
+    margin-top: 30px;
+  }
+  .wae-single-post .popupConRes {
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    border-bottom: 1px solid #bdbdbd;
+    padding-left: initial !important;
+    padding-right: initial !important;
+  }
+  .wae-body form {
+    margin-bottom: initial;
+  }
+  .wae-single-post .container {
+    padding-left: initial;
+  }
+  .wa-google-map {
+    padding-top: 31px;
+  }
+  .water-activity .hm-home-btn {
+    cursor: pointer;
+  }
+  
+  .wae-search-in-slider {
+    display: flex;
+    padding: 28px;
+}
+.home-btn span{
+    font-family: "GilroyBold";
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    padding-left: 23px;
+    padding-top: 3px;
+}
+.side-btn{
+    background-color: #f5f5f7;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+.most-popular {
+    font-size: 26px;
+    font-weight: 700;
+    padding-right: 31px;
+}
+.water-activity-title {
+  padding-left: 35px;
+}

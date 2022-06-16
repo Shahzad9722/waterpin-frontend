@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "message": "This is first",
+    "avatar": "message-avatar.png",
+    "chats": [
+      {
+        "id": 1223,
+        "type": "incoming",
+        "text": "lorem ipsum lorem ipsum lorem ipsum ",
+        "attachment": "url",
+        "timeStamp": "Mon, Nov 2, 5pm"
+      },
+      {
+        "id": 1224,
+        "type": "outgoing",
+        "text": "lorem ipsum lorem ipsum lorem ipsum ",
+        "attachment": "url",
+        "timeStamp": "Mon, Nov 2, 5pm"
+      }
+    ],
+    "title": "24 foot bowrider",
+    "timeStamp": "2m"
+  },
+  {
+    "id": 2,
+    "name": "Jane",
+    "message": "Love this Boat",
+    "avatar": "message-avatar.png",
+    "chats": [
+      {
+        "id": 1223,
+        "type": "incoming",
+        "text": "lorem ipsum lorem ipsum lorem ipsum ",
+        "attachment": "url",
+        "timeStamp": "Mon, Nov 2, 5pm"
+      },
+      {
+        "id": 1224,
+        "type": "outgoing",
+        "text": "lorem ipsum lorem ipsum lorem ipsum ",
+        "attachment": "url",
+        "timeStamp": "Mon, Nov 2, 5pm"
+      }
+    ],
+    "title": "Cuddy cabin outboard",
+    "timeStamp": "3h"
+  },
+  {
+    "id": 3,
+    "name": "Jackie",
+    "message": "Love this cruise",
+    "avatar": "message-avatar.png",
+    "chats": [
+      {
+        "id": 1223,
+        "type": "incoming",
+        "text": "lorem ipsum lorem ipsum lorem ipsum ",
+        "attachment": "url",
+        "timeStamp": "Mon, Nov 2, 5pm"
+      },
+      {
+        "id": 1224,
+        "type": "outgoing",
+        "text": "lorem ipsum lorem ipsum lorem ipsum ",
+        "attachment": "url",
+        "timeStamp": "Mon, Nov 2, 5pm"
+      }
+    ],
+    "title": "45 foot yatch",
+    "timeStamp": "4m"
+  },
+  {
+    "id": 4,
+    "name": "Janet",
+    "message": "here is the message",
+    "avatar": "message-avatar.png",
+    "chats": [
+      {
+        "id": 1223,
+        "type": "incoming",
+        "text": "lorem ipsum lorem ipsum lorem ipsum ",
+        "attachment": "url",
+        "timeStamp": "Mon, Nov 2, 5pm"
+      },
+      {
+        "id": 1224,
+        "type": "outgoing",
+        "text": "lorem ipsum lorem ipsum lorem ipsum ",
+        "attachment": "url",
+        "timeStamp": "Mon, Nov 2, 5pm"
+      }
+    ],
+    "title": "Listing title",
+    "timeStamp": "5m"
+  }
+]

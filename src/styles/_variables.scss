@@ -1,0 +1,33 @@
+/* ================  COLORS ================ */ 
+$color-brand-blue-owner: rgba(66, 133, 244, 1);
+$color-brand-blue-renter: #00C2CB;
+
+$color-gray: red;
+$color-teal: #00c2cb;
+
+$color-white-warm-1: #f7f7f7;
+$color-white-warm-2: #e0e0e0;
+$color-white-warm-3: #f1f1f1;
+$color-white-warm-4: #F5F5F7;
+
+
+$color-gray-1: #333333;
+$color-gray-3: #828282;
+
+
+
+/* ================  MIXINS ================ */ 
+@mixin font-gilroy-regular {
+  font-family: 'GilroyRegular', Arial, sans-serif;
+}
+@mixin font-gilroy-bold {
+  font-family: 'GilroyBold', Arial, sans-serif;
+}
+
+@mixin border-bottom {
+  border: 1px solid $color-white-warm-2;
+}
+
+@mixin shadow {
+  box-shadow: 0px 4px 20px rgba(179, 179, 179, 0.25);
+}

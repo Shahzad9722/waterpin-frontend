@@ -1,0 +1,113 @@
+/*Calender*/
+
+
+.rmdp-day span {
+  font-family: GilroyBold;
+}
+.rmdp-day.rmdp-deactive, .rmdp-day.rmdp-disabled {
+  color: #cccc !important;
+}
+.rmdp-week-day {
+  color: #333333;
+}
+.rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+    background-color: #4285f4 !important;
+}
+.rmdp-shadow {
+  box-shadow: unset !important;
+  width: 100% !important;
+}
+.rmdp-calendar {
+  width: 100% !important;
+}
+.rmdp-day-picker>div {
+  width: 100% !important;
+}
+
+.rmdp-header-values {
+  font-family: GilroyBold;
+  font-size: 22px;
+  color: #333333;
+}
+.rmdp-day {
+  border-bottom: 2px solid #E0E0E0;
+  border-left: 2px solid #E0E0E0;
+  border-top: 2px solid #E0E0E0;
+  border-right: 2px solid #E0E0E0;
+}
+.rmdp-week{
+  /*padding: 8px 0px;*/
+  justify-content: unset;
+}
+.rmdp-day{
+  width: 72px !important;
+  height: 60px !important;
+}
+.rmdp-day-picker div .rmdp-week .rmdp-day:last-child {
+  border-right: 2px solid #E0E0E0;
+}
+.rmdp-day-picker div .rmdp-week:last-child .rmdp-day:first-child {
+  border-bottom-left-radius: 10px;
+  border-right: 2px solid #E0E0E0;
+  border-left: 2px solid #E0E0E0 !important;
+}
+.rmdp-day-picker div .rmdp-week:last-child .rmdp-day{
+  border-right: 2px solid #E0E0E0;
+  border-left: unset;
+}
+.rmdp-day-picker div .rmdp-week:first-child {
+  border: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.rmdp-week-day {
+  height: 60px !important;
+  width: 72px !important;
+  margin: auto;
+  border-right: 2px solid black;
+  color: black !important;
+  font-size: 1.1rem !important;
+}
+.rmdp-week-day:last-child {
+  border-right: unset !important;
+}
+
+.rmdp-day-picker div .rmdp-week:nth-child(2) .rmdp-day {
+  border-bottom: unset !important;
+}
+.rmdp-day-picker div .rmdp-week:nth-child(3) .rmdp-day {
+    border-top: 2px solid #E0E0E0;
+}
+.rmdp-day.rmdp-day-hidden {
+  visibility: hidden;
+}
+.rmdp-day span {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  font-size: 15px !important;
+}
+.rmdp-day.rmdp-selected span.disabled_date {
+  background-color: white !important;
+  color: black !important;
+}
+.rmdp-day.rmdp-selected span.disabled_date:before{
+  display: none;
+}
+.rmdp-day.rmdp-selected span.other_disabled_date ,.rmdp-day.rmdp-selected span{
+  color: #ccc !important;
+  background-color: white !important;
+}
+
+span.disabled_date:before ,.rmdp-day.rmdp-disabled span:before , .rmdp-day.rmdp-selected span.other_disabled_date:before ,.rmdp-day.rmdp-selected span:before{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 46%;
+  width: 60%;
+  margin: auto;
+  right: 0;
+  border-top: 2px solid;
+  border-color: inherit;
+  transform: rotate(-30deg);
+}
